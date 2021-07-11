@@ -31,7 +31,8 @@
 
 
 .footer-content {
-    margin-top: 60px;
+    @media screen and (max-width: 480px) {
+    margin-top: 60px;}
     @media screen and (min-width: 768px) {
     margin-left: 76px;
 justify-content: center;}
@@ -41,7 +42,9 @@ justify-content: center;}
     }
 
 .footer-subscribe {
+    @media screen and (max-width: 768px) {
     margin-top: 60px;
+}
 }
 
 .subscribe {

@@ -12,7 +12,6 @@
 
 .box-workers   {
     width: 100%;
-    margin-bottom: 30px;
     @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 60px) / 2);
     margin-left: 30px;}
@@ -22,7 +21,6 @@
 }
 
 .box-workers:not(:last-child){
-    // margin-right: 30px;
     margin-bottom: 30px;
 }
 
