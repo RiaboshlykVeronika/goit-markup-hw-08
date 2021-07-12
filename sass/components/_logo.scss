@@ -1,28 +1,36 @@
-.logo {
-    margin-right: 93px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+.logo {  
+     @media screen and (max-width: 767px) {
+         padding-top: 16px;
+        padding-bottom: 16px;}
+    @media screen and (min-width: 768px) {
+       margin-right: 88px;
+      }
+      @media screen and (min-width: 1200px) {
+    margin-right: 93px;}
 }
 
 .logo, .footer-logo {
     color: var(--accent-color);
     font-family: var(--accent-font);
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 1.17;
     text-decoration: none;
-}
+    @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;}
+    }
+
 
 .page-header__logo--dark {
-    color: #000;
+    color: var(--title-text-color);
 }
 
 .footer__logo--white {
     color: var(--primary-white-color);
 }
 
-
 .footer-logo {
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
  }
