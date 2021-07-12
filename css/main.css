@@ -151,7 +151,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (min-width: 1200px) {
   .contact-list__item:not(:last-child) {
     margin-right: 30px;
   }
